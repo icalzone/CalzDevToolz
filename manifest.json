@@ -1,0 +1,69 @@
+{
+  "manifest_version": 2,
+  "name": "Web Developer Toolz",
+  "description": "A number of Utilities to use for your web development.",
+  "author": "Calvin Ells",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/ico19.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "alarms",
+    "storage",
+    "contextMenus",
+    "http://*/*", 
+    "https://*/*",
+    "<all_urls>",
+    "management",
+    "cookies",
+    // "webRequest",
+    "notifications"
+  ],
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+          "http://*/*",
+          "https://*/*"
+      ],
+      "css": [
+        "css/content.css",
+        "css/main.css"
+      ],
+      "js": [
+        "js/jquery.js",
+        "js/content.js",
+         "js/zepto.min.js", 
+         "js/bootstrap-helpers.js"
+        // "js/vendors/interact.js",
+        // "js/content/message.js",
+        // "js/content/modules/color-picker.js",
+        // "js/content/modules/zoom.js",
+        // "js/content/modules/ruller.js",
+        // "js/content/modules/crop.js",
+        // "js/content/modules/module.js",
+        // "js/content/event.js",
+        // "js/content/content.js"
+      ]
+    }
+  ],
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
+  "offline_enabled": true,
+  "icons": {
+      "19": "icons/ico19.png",
+      "32": "icons/ico32.png",
+      "48": "icons/ico48.png",
+      "128": "icons/ico128.png"
+  },
+  "web_accessible_resources": ["js/runbootlint.js"]
+}

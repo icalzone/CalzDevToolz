@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Helper Options</title>
+    <style>
+        body { margin: 0; }
+        section, footer { padding: 20px; }
+        section {
+            text-align: center;
+        }
+        footer {
+            color: #555555;
+            background-color: #F0F0F0;
+            text-align: right;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer .version {
+            font-size: 0.7em;
+        }
+        footer .love {
+            font-size: 1.2em;
+        }
+        footer .invite {
+            font-size: 0.85em;
+        }
+        footer .invite a {
+            color: inherit;
+            text-decoration: underline;
+        }
+        footer .perso {
+            font-size: 1em;
+            line-height: 0.8;
+        }
+        .heart {
+            color: #FF5555;
+        }
+        .star {
+            color: #FFEE55;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div>
+
+            <h3>
+                Breakpoint indicator position :
+            </h3>
+            <select id="indicator-position">
+                <option value="top-left">Top / Left</option>
+                <option value="top-right">Top / Right</option>
+                <option value="bottom-left">Bottom / Left</option>
+                <option value="bottom-right">Bottom / Right</option>
+            </select>
+        </div>
+
+        <br>
+        <br>
+        <div>
+            <button id="save">Save</button>
+            <span id="status"></span>
+        </div>
+    </section>
+
+    <script src="js/options.js"></script>
+</body>
+</html>

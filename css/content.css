@@ -1,0 +1,67 @@
+#bh-simple-helper {
+    position: fixed;
+    z-index: 100000;
+    width: 60px;
+    height: 45px;
+    overflow: hidden;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #6B15A1;
+    border-bottom-width: 6px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.15);
+    color: #6B15A1;
+    text-align: center;
+    font-weight: bold;
+    text-transform: lowercase;
+
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+#bh-simple-helper.active {
+    opacity: 1;
+}
+#bh-simple-helper.bh-tl {
+    top: 10px; left: 10px;
+}
+#bh-simple-helper.bh-tr {
+    top: 10px; right: 10px;
+}
+#bh-simple-helper.bh-bl {
+    bottom: 10px; left: 10px;
+}
+#bh-simple-helper.bh-br {
+    bottom: 10px; right: 10px;
+}
+
+#bh-simple-helper > div {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+@media(min-width:767px){
+    #bh-simple-helper {
+        border-color: #6B15A1;
+        color: #6B15A1;
+    }
+}
+@media(min-width:768px){
+    #bh-simple-helper {
+        border-color: #801CA1;
+        color: #801CA1;
+    }
+}
+@media(min-width:992px){
+    #bh-simple-helper {
+        border-color: #9623A1;
+        color: #9623A1;
+    }
+}
+@media(min-width:1200px){
+    #bh-simple-helper {
+        border-color: #AC2AA1;
+        color: #AC2AA1;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Assistente Bootstrap"
+  },
+  "appShortName": {
+    "message": "Assistente Bootstrap"
+  },
+  "appDesc": {
+    "message": "Help you to know the current Bootstrap breakpoint"
+  },
+  "extTitle": {
+    "message": "Ridimensionare / Guida"
+  }
+}

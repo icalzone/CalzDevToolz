@@ -1,0 +1,36 @@
+.web-developer-tools { 
+
+	.ruller-wrapper {
+		cursor: crosshair;
+		position: fixed;
+		width: 100%;
+		height: calc(100% - 35px);
+		top: 0;
+		left: 0;
+		z-index: 9999;
+	}
+
+	.ruller {
+
+		.icon {
+			background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wO C8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjA0QzUwRjlBNEE5MTFFNDg0Q0Y4MEQ5N0Q5NzA5MzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjA0QzUwRkFBNEE5MTFFNDg0Q0Y4MEQ5N0Q5NzA5MzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2MDRDNTBGN0E0QTkxMUU0ODRDRjgwRDk3RDk3MDkzMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2MDRDNTBGOEE0QTkxMUU0ODRDRjgwRDk3RDk3MDkzMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqFWTpoAAAG1SURBVHjahJHNK0RhFMbPee+daTAm5SMrpWQrxc7CVyMkKUkiKQsbSmzsZC0bK+vx0ZBMQhY+k7KgiCT5A0iZYnzN3Pc9HqNhyHDq9t57zvnd87zPYX9DG32E0Fdw0nf8vY5ITeCsxnPznlX0b3AjsbVO+ukE0CGQwn9ATGS7k0XPAwoAfhD9GER+F8Wi1CBbzWKi4yKxddFPIyROBOAw6cg5aqepwAqQIUXmDs39mJKro7dDzK56sryVJKb7N7AcEvckdj8gYrbZyhgz+uFY2b5mdues4XatLGbe/s6oKmK1JU64h8hcGed5EmeasnxN7MoOoaGFxVlJMkfid0JyCUYsMnsaRKIXYl5Qs0rZlbOMrbSS6NDHej5B5RcTmxJxDnCnQSJ9h389s/JUK3fePnrbYM5iAkqAWCqtQXcY7kGi5OnX6z5ILlPu/E30tgNaSIYS4KyYyCqRE2ArfRRGHLGdWaPcuTvo7YCDwZ9QHMSCa1l5SyDVaCc8wCqzFtAGal2YNJdqzXBVziDLz7bvQDlcwLYXcrmbTWxamOkP8D3MJZqLlSvrDLvrhXszv8lLjjcBBgBPBL8CdZ8ywQAAAABJRU5ErkJggg==') no-repeat center left;
+		}
+
+		.content {
+			display: table;
+
+			span {
+				color: #6e6e6e;
+				display: inline-block;
+				height: 15px;
+				position: relative;
+				top: 9px;
+				text-align: center;
+				vertical-align: middle;
+				width: 25%;
+			}
+
+
+		}
+	}
+}

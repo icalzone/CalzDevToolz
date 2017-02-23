@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;	
+}
+
+.container {
+	color: #363636;
+	font-size: 18px;
+	margin: auto;
+	text-align: center;
+	width: 70%;
+}
+
+label {
+	cursor: pointer;
+}
+
+h1 {
+	color: #e67e22;
+}
+
+.button {
+	background: #e67e22;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	margin: 25px auto 0;
+	padding: 10px 0;
+	text-align: center;
+	width: 75px;
+}
+
+.button:hover {
+	background: #f98f32;
+}

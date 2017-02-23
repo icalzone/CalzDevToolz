@@ -1,0 +1,18 @@
+.web-developer-tools { 
+
+	.canvas {
+		cursor: crosshair;
+		left: 0;
+		position: absolute;
+		top: 0;
+		z-index: 9999;
+	}
+
+	.canvas-wrapper {
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 9999;
+	}
+}
